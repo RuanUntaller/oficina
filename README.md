@@ -1,16 +1,25 @@
-# React + Vite
+# Oficina Moura - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Frontend do sistema de gerenciamento da Oficina Moura.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite 8
+- JavaScript
 
-## React Compiler
+## Repositório
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/RuanUntaller/oficina
 
-## Expanding the Oxlint configuration
+## Aplicação em produção
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+https://oficina-mu-nine.vercel.app/
+
+## Backend
+
+https://oficina-servidor.onrender.com
+
+## Status
+
+Frontend em desenvolvimento.
