@@ -16,3 +16,50 @@ Tarefa: Substitua o conteúdo inicial do App.jsx por um componente React simples
 - Não usar bibliotecas externas como Axios.
 
 **Resultado:** O frontend consulta o backend no Render e exibe a mensagem de status na tela.
+
+
+
+
+
+# feat/veiculos-frontend 24/11
+Contexto
+
+O projeto Oficina Moura possui frontend em React/Vite. O backend de veículos está concluído, publicado e funcionando em:
+
+https://oficina-servidor.onrender.com
+
+A API disponibiliza as rotas GET, POST, PUT e DELETE /veiculos.
+
+Cada veículo possui os campos:
+- placa
+- modelo
+- nome_dono
+- telefone_dono
+Todos são obrigatórios.
+
+Tarefa
+
+Implementar a interface de gerenciamento de veículos, permitindo:
+- Cadastrar veículos.
+- Listar veículos cadastrados.
+- Editar veículos existentes.
+- Excluir veículos.
+Integrar as operações com as rotas disponíveis no backend.
+
+Restrições
+- Primeiro, analise a estrutura atual do projeto.
+- Siga os padrões e convenções já existentes.
+- Não altere o backend.
+- Não instale bibliotecas ou frameworks desnecessários.
+- Não modifique arquivos fora do escopo da tarefa.
+- Utilize exatamente os nomes dos campos definidos pela API.
+- Trate erros retornados pelo backend.
+- Antes de modificar arquivos, apresente um plano de implementação para revisão.
+Pronto quando
+- For possível cadastrar, listar, editar e excluir veículos pela interface.
+- Os quatro campos obrigatórios forem validados.
+- Ao tentar salvar o formulário com algum campo obrigatório vazio, a interface deve impedir o envio e informar visualmente qual campo precisa ser preenchido.
+- Antes de excluir um veículo, a interface deve exibir uma confirmação, permitindo cancelar ou confirmar a exclusão. A requisição DELETE só deve ser enviada após a confirmação.
+- As operações estiverem integradas à API pública.
+- Os erros retornados pelo backend forem tratados adequadamente.
+- Não houver erros no console do navegador.
