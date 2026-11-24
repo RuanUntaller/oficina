@@ -63,3 +63,10 @@ Pronto quando
 - As operações estiverem integradas à API pública.
 - Os erros retornados pelo backend forem tratados adequadamente.
 - Não houver erros no console do navegador.
+
+# feat/veiculos-frontend  24/11
+Revise o src/index.css. Você adicionou novas regras globais ao final do arquivo, duplicando definições existentes de :root, body, #root, h1 e h2.
+
+Organize o arquivo para evitar duplicações, mantendo as configurações necessárias para a nova interface. Preserve o visual atual, a responsividade e as demais funcionalidades. Não altere outros arquivos.
+
+Depois, mostre o diff para revisão. Não faça commit.
