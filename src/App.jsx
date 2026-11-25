@@ -130,6 +130,10 @@ function App() {
   const [historyError, setHistoryError] = useState('')
   const [historyRefreshKey, setHistoryRefreshKey] = useState(0)
 
+  const visibleServices = services.filter((service) =>
+   vehicles.some((vehicle) => vehicle.id === service.veiculo_id)
+)
+
   useEffect(() => {
     const controller = new AbortController()
 
@@ -846,7 +850,7 @@ function App() {
                     </tr>
                   </thead>
                   <tbody>
-                    {services.map((service) => {
+                    {visibleServices.map((service) => {
                       const vehicleLabel = service.placa && service.modelo
                         ? `${service.placa} — ${service.modelo}`
                         : 'Veículo excluído'
